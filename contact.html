@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>abc</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script type="text/javascript">
+			$(window).on('scroll', function(){
+				if ($(window).scrollTop()){
+					$('nav').addClass('black');
+				}
+				else
+				{
+					 $('nav').removeClass('black');
+				}
+			})
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$('.toggle').click(function()
+				{
+					$('ul').toggleClass('active');
+				})
+			})
+		</script>
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0379db00-de24-4199-8383-aa241ba07b49"></div>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="logo.jpg">
+			</div>
+			<a class="toggle">Menu</a>
+			<ul class="active">
+				<li><a href="start_page2.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="team.html">Team</a></li>						
+				<li><a href="Contact.html" class="active">Contact</a></li>
+			</ul>
+		</nav>
+		<ul class="c">
+		<li>
+			<a href="https://www.facebook.com/ram.subhag.16/">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span class="fa fa-facebook"></span>
+			</a>
+		</li>
+		<li>
+			<a href="https://twitter.com/anand6111997">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span class="fa fa-twitter"></span>
+			</a>
+		</li>
+		<li>
+			<a href="mailto: anandkumar.nishad25@gmail.com ">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span class="fa fa-google"></span>
+			</a>
+		</li>
+		<li>
+			<a href="https://www.instagram.com/anand_kumar_nishad/">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span class="fa fa-instagram"></span>
+			</a>
+		</li>
+	</ul>
+</body>
+</html>

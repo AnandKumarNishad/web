@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َLogin </title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+          $('nav').addClass('black');
+        }
+        else
+        {
+           $('nav').removeClass('black');
+        }
+      })
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function()
+      {
+        $('.toggle').click(function()
+        {
+          $('ul').toggleClass('active');
+        })
+      })
+    </script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0379db00-de24-4199-8383-aa241ba07b49"></div>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="logo.jpg">
+      </div>
+      <a class="toggle">Menu</a>
+      <ul class="active">
+        <li><a href="start_page2.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="team.html">Team</a></li>           
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+  <form class="box" action="index.html" method="post">
+    <h1>Login</h1>
+    <input type="text" name="" placeholder="Username">
+    <input type="password" name="" placeholder="Password" id="ps">
+    <input type="checkbox" onclick="myFunction()">Show Password
+    <input type="submit" name="" value="Login">
+  </form>
+  <script>
+function myFunction() {
+  var x = document.getElementById("ps");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+  </body>
+</html>

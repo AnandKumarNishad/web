@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>abc</title>
+	<link rel="stylesheet" type="text/css" href="services.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				 $('nav').removeClass('black');
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.toggle').click(function()
+			{
+				$('ul').toggleClass('active');
+			})
+		})
+	</script>
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+	<div class="elfsight-app-0379db00-de24-4199-8383-aa241ba07b49"></div>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="logo.jpg">
+		</div>
+		<a class="toggle">Menu</a>
+		<ul class="active">
+			<li><a href="start_page2.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="services.html" class="active">Services</a></li>
+			<li><a href="team.html">Team</a></li>						
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="box">
+			<div class="content">
+				<h2>01</h2>
+				<h3>Service One</h3>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="content">
+				<h2>02</h2>
+				<h3>Service Two</h3>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="content">
+				<h2>03</h2>
+				<h3>Service Three</h3>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="content">
+				<h2>04</h2>
+				<h3>Service Four</h3>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
